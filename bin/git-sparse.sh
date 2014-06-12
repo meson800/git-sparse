@@ -19,5 +19,6 @@ if (( $# >= 3 )); then
 		
 		git remote set-url origin "$2"
 		git pull origin master
+		git fetch
 	fi
 fi
